@@ -34,7 +34,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 2 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
-| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 13 |
+| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 14 |
 | [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 1 |
 
 ---
@@ -556,6 +556,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Best for:** backtesting Polymarket and Predict.fun crypto Up/Down strategies and recomputing settlements from the Chainlink feed.
   - **Team:** not publicly listed.
   - **Pricing:** $10/mo per venue ($18 for both) for the newest 30 days; one-time date ranges from $0.40/day; backtest credits from $2; one free sample day per venue ([pricing](https://outcometick.com/#pricing)).
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
+- **[Glypse](https://glypse.ai/)**: Market screener and event research for Polymarket and Kalshi, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
+  - **Best for:** researching the events and social sentiment behind Polymarket and Kalshi prices.
+  - **Team:** Glypse, Inc., founded by Doruk Senkal.
+  - **Pricing:** free tools and research without an account; a free account adds expanded market results, longer post feeds, and saved social queries.
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
