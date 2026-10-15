@@ -559,8 +559,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
-- **[Glypse](https://glypse.ai/)**: Market screener and event research for Polymarket and Kalshi, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
-  - **Best for:** researching the events and social sentiment behind Polymarket and Kalshi prices.
+- **[Glypse](https://glypse.ai/)**: Market screener and event research for prediction markets, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
+  - **Best for:** researching the events and social sentiment behind prediction market prices.
   - **Team:** Glypse, Inc., founded by Doruk Senkal.
   - **Pricing:** free tools and research without an account; a free account adds expanded market results, longer post feeds, and saved social queries.
   - **Phase:** live.
