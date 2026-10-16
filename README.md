@@ -451,6 +451,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 🧠 Research & Market Discovery
 
+- **[DegenHedge Kalshi Fee and Payout Calculator](https://degenhedge.com/tools/kalshi-fee-calculator/)**: Free browser calculator for Kalshi BTC 15-minute contracts that estimates taker fees, total cost, winning payout, net profit, and break-even probability. Fee estimates depend on the selected multiplier, account balance precision, and fill assumptions; no account or API key is required.
+  - **Best for:** checking a BTC 15-minute contract's cost and break-even probability with explicit fee assumptions.
+  - **Team:** not publicly listed.
+  - **Pricing:** free calculator; DegenHedge also offers separate paid Telegram monitoring.
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 - **[Poly Helper](https://polyhelper.io/)**: Free Chrome/Brave extension embedding 18+ contextual data panels directly into the Polymarket interface.
   Crypto prices, sports scores, macro data, whale tracking, and news, all in-context.
   - **Best for:** researching without leaving the Polymarket tab.
