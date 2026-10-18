@@ -20,7 +20,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 | Tools | Categories | Contributors | GitHub views (last 8 wks) |
 |---|---|---|---|
-| 61 (+2 this wk) | 8 | 24 (+2 this wk) | 1,027 |
+| 62 (+3 this wk) | 8 | 24 (+2 this wk) | 1,027 |
 
 *Updated every Sunday.*
 
@@ -35,7 +35,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
 | [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 15 |
-| [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 1 |
+| [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 2 |
 | [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 1 |
 
 ---
@@ -574,6 +574,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Pricing:** not publicly listed. The protocol charges entry, time-based, and liquidation fees, and the integrating platform sets its own origination fee on the leveraged volume it generates.
   - **Phase:** live API with public docs and published packages, but no partner integrations are publicly named. The TypeScript SDK is at 2.5.0; the Python client and MCP server sources were taken private in Aug 2026.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
+- **[Gondor](https://gondor.fi)**: Lending against Polymarket positions: use them as collateral and borrow up to 50% of their current value without selling.
+  Pre-launch, waitlist only. Interest rates, liquidation rules, custody and audits are not published yet.
+  - **Best for:** tracking position-backed borrowing for Polymarket ahead of launch.
+  - **Team:** not publicly listed.
+  - **Pricing:** not publicly listed.
+  - **Phase:** pre-launch (waitlist).
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
 [↑ Back to top](#top)
 
