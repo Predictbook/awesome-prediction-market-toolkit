@@ -1,19 +1,19 @@
-# awesome-prediction-market-analytics-tools
+# awesome-prediction-market-toolkit
 
-> A curated, maintained list of tools for tracking odds, volume, wallet activity, and execution across prediction markets — Polymarket, Kalshi, and others. Maintained by Predictbook.
+> A curated, maintained list of prediction market tools: odds, volume and wallet tracking, execution, alerts, data and APIs, and leverage, lending and yield, across Polymarket, Kalshi, and others. Maintained by Predictbook.
 
 ## What this is
-Each entry is a real, vetted tool — not a marketing pitch. Entries include what the tool is best for, team, pricing, and phase (live/beta). See CONTRIBUTING.md for how entries get added and vetted.
+Each entry is a real, vetted tool, not a marketing pitch. Entries include what the tool is best for, team, pricing, and phase (live/beta). See CONTRIBUTING.md for how entries get added and vetted.
 
 ## Categories
 - Cross-Platform Odds Aggregators
 - Trade Copying & Automation
 - Trading Terminals & Execution
 - Signal & Fair-Value
-- Portfolio/Tax & Journaling
 - Wallet & Trader Analytics
 - Alerts & Whale Monitoring
 - Research & Market Discovery
+- Leverage, Lending & Yield
 
 ## Full list
 README.md
