@@ -8,7 +8,8 @@ Pull requests are the fastest way to get a tool added or corrected. Issues are f
 2. Match the existing format exactly:
 
 ```
-- **[Tool Name](https://example.com)**: One or two sentences on what it actually does.
+- **[Tool Name](https://example.com)**: One line on what it actually does.
+  Optional second line: what sets it apart, or a caveat users need to know.
   - **Best for:** the one thing this tool is genuinely best at — not a feature list.
   - **Team:** names if public, or "not publicly listed" if not. Don't leave this blank.
   - **Pricing:** what it actually costs, or "not publicly listed."
@@ -17,6 +18,8 @@ Pull requests are the fastest way to get a tool added or corrected. Issues are f
 ```
 
 `Added` and `Reviewed` are the same month the first time an entry goes in — `Reviewed` only moves forward later, when the entry actually gets rechecked.
+
+**Keep it short.** Aim for about 150 to 250 characters on the first line, and one extra line at most. Anything users need to stay safe stays in (custody, leverage risk, read-only status, AI-generated content). Feature lists, SDK and version details, and marketing copy get trimmed on merge.
 
 3. Open a PR against `README.md` with that entry added, in the right place in its section.
 
