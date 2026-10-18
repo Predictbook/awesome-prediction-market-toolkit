@@ -559,6 +559,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
+- **[Perfect Clock](https://perfectclock.cc/polymarket)**: Free timeline calendars that put Polymarket markets next to the events they resolve on: F1 sessions, NBA and NHL games, Fed and CPI decisions, daily BTC/ETH prices, rocket launches.
+  Times are shown in your own time zone; odds are a snapshot refreshed once a day, not a live feed.
+  - **Best for:** seeing which markets resolve when, in your local time, without converting from UTC.
+  - **Team:** independent developer, Alexei Panov (self-disclosed).
+  - **Pricing:** free, no account or wallet needed.
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 [↑ Back to top](#top)
 
 ---
