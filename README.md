@@ -599,4 +599,17 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ---
 
+<a name="related-lists"></a>
+
+## 🔗 Related Lists
+
+Other directories of prediction market tools. Both offer paid listing options for makers.
+
+- [LaunchPoly](https://launchpoly.com): Polymarket and Kalshi tools ranked weekly by trader votes, with comparisons and calculators.
+- [Prediction Market Use Cases](https://prediction-market-use-cases.vercel.app/): open-source Kalshi and Polymarket bots, AI agents and data tools, linked to their source.
+
+[↑ Back to top](#top)
+
+---
+
 Missing a tool, or something here is out of date? This list is maintained by [Predictbook](https://predictbook.co). Reach out and we'll add or fix it.
