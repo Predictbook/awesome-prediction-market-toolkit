@@ -57,8 +57,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 🌐 Cross-Platform Odds Aggregators
 
-- **[Polyrama](https://polyrama.io/)**: Free real-time terminal and [open-source MCP server](https://github.com/Polyrama/mcp) for Polymarket and Kalshi.
-  Combines live odds and market search with public-wallet analytics, trader leaderboards, whale and mispricing signals, dashboard snapshots, and historical backtests. Its MCP tools support research and paper orders only, not live execution.
+- **[Polyrama](https://polyrama.io/)**: Free real-time terminal and [open-source MCP server](https://github.com/Polyrama/mcp) for Polymarket and Kalshi: live odds, market search, wallet analytics, leaderboards and whale signals.
+  The MCP tools support research and paper orders only, not live execution.
   - **Best for:** researchers and AI agents that need one typed interface for cross-venue market and trader intelligence.
   - **Team:** independent Polyrama team. Young project — the MCP server repo has minimal commit history as of Aug 2026, worth keeping an eye on.
   - **Pricing:** free.
@@ -81,16 +81,16 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** beta.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[Predictions Network](https://www.thebestpredictionmarkets.com/)**: Compares the same outcome across 12 venues side by side and highlights the best price **after fees**.
-  Covers Polymarket, Kalshi, Limitless, Hyperliquid, SX Bet, Gemini, Pascal, OG, Futuur, Smarkets, Matchbook, and Predict Street, mixing crypto-native venues with sportsbook-style ones. Per-event comparison pages, a cross-venue spreads view, and prices date-stamped from the underlying data so a quote is never shown as fresher than it is. Read-only: no wallet connection, no execution. Further venues are in onboarding and will price as each clears its checks. A Spanish edition runs at [prediccioneslatam.com](https://www.prediccioneslatam.com/).
+- **[Predictions Network](https://www.thebestpredictionmarkets.com/)**: Compares the same outcome across 12 venues side by side, including Polymarket, Kalshi, Limitless and Hyperliquid, and highlights the best price **after fees**.
+  Read-only: no wallet connection, no execution. Prices are date-stamped so a quote is never shown as fresher than it is.
   - **Best for:** checking which venue actually prices an outcome best before you open an account there.
   - **Team:** independent, bootstrapped. No funding disclosed.
   - **Pricing:** free.
   - **Phase:** live (more venues in onboarding).
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[EventTracker](https://eventtracker.podcomet.ai)**: Federated dashboard combining data from 28 prediction-market and event-contract venues, including Polymarket, Kalshi, Novig, Opinion, Limitless, Rothera, and ProphetX.
-  Whale-wallet following, cross-venue arbitrage detection, resolution-status alerts, and a fair-price calculator across the aggregated venues. Display-only: no wagers taken, no execution.
+- **[EventTracker](https://eventtracker.podcomet.ai)**: Dashboard combining 28 prediction-market and event-contract venues, including Polymarket, Kalshi, Novig and ProphetX.
+  Whale-wallet following, cross-venue arbitrage detection and resolution alerts. Display-only: no wagers, no execution.
   - **Best for:** arbitrage and mispricing checks across a wider venue set than most single-platform aggregators cover.
   - **Team:** six co-founders, headed by Tal Ayalon (PhD student, information science, Drexel University; prior data/information-systems work at the UN and World Bank).
   - **Pricing:** free tier; premium $22/month or $199/year.
@@ -129,8 +129,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
-- **[PolyBot](https://polybot.trading/)**: Telegram-native, self-custodial Polymarket trading system that turns smart-wallet discovery into automated execution.
-  Its Smart Wallets engine goes beyond raw leaderboards to surface traders by copyability, sustained 7d/30d performance, consistency, slippage, copy-capital requirements, modeled copy P&L, and risk flags. Follow a wallet through your own Safe with fixed or proportional sizing, market or limit execution, price and category filters, daily and per-position caps, plus stop-loss, take-profit, trailing-stop, and counter-trade controls. Also includes strategy automation, sponsored gas, portfolio and performance tracking, alerts, advanced orders, and 2FA.
+- **[PolyBot](https://polybot.trading/)**: Telegram-native, self-custodial Polymarket trading bot that ranks smart wallets by copyability and copies them through your own Safe.
+  Sizing, price and category filters, daily and per-position caps, and stop-loss, take-profit and trailing-stop controls.
   - **Best for:** serious Polymarket traders who want to find wallets worth copying, pressure-test the edge, and automate the trade without leaving Telegram.
   - **Team:** not publicly listed. Domain registered ~Sept 2025 and flagged low-trust by third-party scanners — self-custodial via your own Safe (not a private-key/seed-phrase model), but vet independently before connecting a wallet.
   - **Pricing:** 1% fee on successful trades.
@@ -138,7 +138,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
 - **[Garnet](https://github.com/AndreySchurko/garnet-polymarket)**: Self-hosted, source-available Polymarket copy-trading engine written in Rust.
-  You choose the wallets; it detects their trades three independent ways (RTDS websocket, /activity polling, Polygon logs) and mirrors them under per-event exposure caps, a daily loss stop and a database-backed killswitch, with a shadow mode that pays the same fees as live.
+  Detects followed wallets' trades three independent ways and mirrors them under per-event exposure caps, a daily loss stop and a killswitch, with a shadow mode that pays live fees.
   - **Best for:** traders who already know which wallets they want to copy and would rather run the bot on their own server, with their own key, than hand either to a service.
   - **Team:** Andrey Schurko (author).
   - **Pricing:** free for individuals trading their own funds (BUSL-1.1, converts to Apache-2.0 in 2030); commercial license for companies and funds.
@@ -153,8 +153,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## ⚡ Trading Terminals & Execution
 
-- **[oracle3](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent)**: Open-source prediction-market trading engine for Kalshi, Polymarket and Solana.
-  Checks fee-adjusted no-arbitrage relations across related event contracts using each venue's official fee schedule, runs cointegration and lead-lag strategies, backtests on recorded data, and trades live or on paper under pre-trade risk limits; a 13-tool MCP server exposes order books, the arbitrage checks and paper execution to AI agents.
+- **[oracle3](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent)**: Open-source trading engine for Kalshi, Polymarket and Solana that checks fee-adjusted arbitrage across related contracts.
+  Backtesting, live or paper trading under pre-trade risk limits, and an MCP server for AI agents.
   - **Best for:** finding cross-contract and cross-venue arbitrage net of fees, from Python or from an AI agent.
   - **Team:** Yicheng Yang (open-source maintainer).
   - **Pricing:** free, open-source (Apache-2.0).
@@ -169,8 +169,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
-- **[Sonist](https://sonist.tech/)**: Sonist automates live mention-market trading on Kalshi and Polymarket.
-  It brings markets from both exchanges into one interface and monitors live audio, subtitle feeds, or accessibility captions for configured words. When a word is said, Sonist applies your risk limits and sends the trade through your account, letting you use the lowest-latency source available for each event.
+- **[Sonist](https://sonist.tech/)**: Automates live mention-market trading on Kalshi and Polymarket.
+  Monitors live audio, subtitles or captions for configured words and, when one is said, sends the trade through your account within your risk limits.
   - **Best for:** mention-market traders who want automated execution from the lowest-latency live source available for each event.
   - **Team:** independent, founder-built.
   - **Pricing:** free tier; Plus $29/mo; Pro $49/mo.
@@ -201,8 +201,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[Kairos](https://kairos.trade/)**: Trading terminal and API across Kalshi, Polymarket, Predict.fun, and Hyperliquid.
-  Stacks matching contracts into a single composite order book and routes orders to the best price on any venue. Colocated feeds, sub-second streaming books, market-making and arbitrage strategy templates, backtesting against recorded books, and REST + WebSocket APIs with a free sandbox. Execution round trips in tens of milliseconds (self-reported).
+- **[Kairos](https://kairos.trade/)**: Trading terminal and API across Kalshi, Polymarket, Predict.fun and Hyperliquid that merges matching contracts into one order book and routes to the best price.
+  Strategy templates, backtesting on recorded books, and REST + WebSocket APIs with a free sandbox.
   - **Best for:** heavy cross-venue traders who don't want a separate login for every platform.
   - **Team:** founded by ex-Cboe quants. Raised $2.5M led by a16z crypto with Geneva Trading participating (per a16z crypto and Fortune coverage).
   - **Pricing:** free sandbox, paid tiers not publicly listed.
@@ -313,8 +313,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[OrcaLayer](https://orcalayer.com/)**: Polymarket analytics covering wallet lookup, smart-money leaderboards, whale alerts, and market research, built on its own index of on-chain fills from the Polygon CTF contracts.
-  Farmer filter removes airdrop-farmed wallets from rankings, NegRisk correction fixes win rates on multi-outcome markets, plus side-level FIFO PnL, median hold time, category hubs, trader comparison, an ISW-based territory monitor for Ukraine markets, a Telegram signal channel, and a REST API.
+- **[OrcaLayer](https://orcalayer.com/)**: Polymarket analytics for wallet lookup, smart-money leaderboards, whale alerts and market research, built on its own index of on-chain fills.
+  Filters out airdrop-farmed wallets and corrects win rates on multi-outcome markets. REST API and a Telegram signal channel.
   - **Best for:** telling whether a headline 90%+ win rate is real conviction or volume farmed at 95 cents and above.
   - **Team:** solo developer. Scoring methodology and weights published on the site.
   - **Pricing:** free tier, paid plans for API access and alerts.
@@ -350,8 +350,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
-- **[sg.tips](https://sg.tips/)**: Sports prediction-market tracker covering Polymarket, Kalshi and SX, with per-match market probabilities and the public positions and track records of accounts that pass a proprietary multi-dimensional screening.
-  Also publishes a weekly CC BY 4.0 [dataset](https://github.com/tipsstats/prediction-market-pro-stats) of aggregate stats.
+- **[sg.tips](https://sg.tips/)**: Sports prediction-market tracker for Polymarket, Kalshi and SX, with per-match probabilities and the positions and track records of screened public accounts.
+  Publishes a weekly CC BY 4.0 [dataset](https://github.com/tipsstats/prediction-market-pro-stats).
   - **Best for:** seeing which screened public accounts hold positions on an upcoming sports match.
   - **Team:** not publicly listed.
   - **Pricing:** free to browse; optional membership $9.99/mo or $79.99/yr for full positions and history. Dataset is free.
@@ -365,8 +365,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** beta.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
-- **[PMWallets](https://pmwallets.com/)**: Polymarket trader leaderboard computed from its own ledger of the Polygon chain, with wallets that trade as one scored as one trader and win rates shown with 95% confidence intervals.
-  Profit is also shown without each trader's single best market. Followed traders' fills are pushed over WebSocket or signed webhook for copy trading; REST API and MIT-licensed SDKs for Node.js and Python.
+- **[PMWallets](https://pmwallets.com/)**: Polymarket trader leaderboard built from its own Polygon ledger, with linked wallets scored as one trader and win rates shown with 95% confidence intervals.
+  Followed traders' fills can be pushed over WebSocket or webhook for copy trading.
   - **Best for:** checking whether a trader's record holds up at the lower bound of its win-rate interval and without its best market, then following that trader's fills.
   - **Team:** not publicly listed.
   - **Pricing:** free account to browse the whole board; plans $4.99 / $14.99 / $39.99 a month (7-day free trial on the $4.99 plan); fill feed $0.01 per wallet per hour.
@@ -421,8 +421,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[Skewfeed](https://skewfeed.com)**: Prediction-market research dashboard monitoring unusual directional activity across Kalshi and Polymarket.
-  Presents recorded price, timing, order-flow and liquidity context behind activity flags. A separate public Polymarket trade table shows completed trades, dollar size, execution time and public wallets.
+- **[Skewfeed](https://skewfeed.com)**: Research dashboard flagging unusual directional activity on Kalshi and Polymarket, with the price, timing, order-flow and liquidity context behind each flag.
+  Also has a free public table of completed Polymarket trades.
   - **Best for:** investigating a market move and checking the evidence behind an unusual-activity flag.
   - **Team:** not publicly listed.
   - **Pricing:** free public trade table; full product $69.99/month, with an annual option and a five-day trial advertised on the site.
@@ -467,47 +467,48 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[Live Tennis API](https://livetennisapi.com)**: Real-time REST and WebSocket API streaming live tennis match state as structured JSON — score, sets/games/points, who's serving, a three-valued break-point flag, and retirement / walkover / completed status.
-  The same kind of ground-truth result data used to resolve tennis contracts on Polymarket and Kalshi (a match completing, a retirement, or a walkover is the resolution event). Covers ATP, WTA, and ITF down to the lower tours. An MIT-licensed, observe-only [match↔market matching toolkit](https://github.com/livetennisapi/polymarket-tennis) pairs the feed against Gamma tennis markets, and there's an [MCP server](https://www.npmjs.com/package/livetennisapi-mcp) on the official MCP Registry for agent research.
+- **[Live Tennis API](https://livetennisapi.com)**: Real-time REST and WebSocket feed of live tennis match state (score, server, retirements, walkovers) across ATP, WTA and ITF.
+  The ground-truth data tennis contracts on Polymarket and Kalshi resolve on, plus an open-source [toolkit](https://github.com/livetennisapi/polymarket-tennis) that pairs live matches with their markets.
   - **Best for:** checking the real resolution data behind tennis markets instead of scraping a scoreboard.
   - **Team:** independent; operated by the Live Tennis API team (livetennisapi.com).
   - **Pricing:** free tier (live scores, match state, players, fixtures; 30 req/min, 100/day, no card); paid plans above that.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[TickFoundry](https://tickfoundry.com/)**: Archived Polymarket order-book data pulled straight off the live socket, not periodic snapshots.
-  Every book update, full L1 and 25-level L2 depth on both sides, and trade data continuous since May 11, 2026. Live reference-price feeds and Polymarket's own sports state feed came online June 21, 2026, and a separate onchain fill layer reaches back further and carries wallet identity the socket data never had. One thing worth knowing: the feeds carry no `condition_id`, so joining scores to books is done by time, not by ID.
+- **[TickFoundry](https://tickfoundry.com/)**: Archived Polymarket order-book data taken straight off the live socket: every book update, L1 and 25-level L2 depth, and trades since May 11, 2026.
+  Worth knowing: the feeds carry no `condition_id`, so joining scores to books is done by time, not by ID.
   - **Best for:** rebuilding exactly what the order book looked like at any past moment.
   - **Team:** built and run solo, self-disclosed rather than anonymous.
   - **Pricing:** free tier claims 5 market-days of your choosing, no card required. Paid tiers above that.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[PolyOrderbooks](https://polyorderbooks.com)**: Read-only REST API and Python SDK for historical Polymarket crypto markets: discovery, bucketed prices, volume/liquidity/spread metrics, and L2 order book snapshots. Queries run against a hosted archive (not live Polymarket on the read path). Resolution down to 1s on paid plans; [developer docs](https://docs.polyorderbooks.com) and [OpenAPI](https://docs.polyorderbooks.com/openapi.json) are public.
+- **[PolyOrderbooks](https://polyorderbooks.com)**: Read-only REST API and Python SDK for historical Polymarket crypto markets: prices, volume, liquidity, spreads and L2 order book snapshots.
+  Down to 1-second resolution on paid plans, with public [docs](https://docs.polyorderbooks.com).
   - **Best for:** backtests and research that need stored L2 depth and market-level time series without operating your own ingestion stack.
   - **Team:** independent product; not affiliated with Polymarket (per site).
   - **Pricing:** Starter free, Pro $19/mo, Scale $49/mo (public [pricing page](https://polyorderbooks.com/pricing)); Enterprise custom.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
-- **[Resolved Markets](https://resolvedmarkets.com)**: Historical Polymarket order book API: full-depth L2 snapshots since March 2026, with trades and settlement results, over REST, WebSocket and a hosted MCP server.
-  Captured at about 20 Hz for crypto up/down markets and 2 Hz for sports; also covers weather, economics, social and equities markets, plus Hyperliquid perp books. An MIT-licensed Python backtester, [resolvedkit](https://github.com/resolvedmarkets/resolvedkit), fills strategies against this depth with Polymarket's fee curve.
+- **[Resolved Markets](https://resolvedmarkets.com)**: Historical Polymarket order book API with full-depth L2 snapshots since March 2026, trades and settlement results, over REST, WebSocket and MCP.
+  Includes an open-source Python backtester, [resolvedkit](https://github.com/resolvedmarkets/resolvedkit), that applies Polymarket's fee curve.
   - **Best for:** backtesting Polymarket crypto up/down strategies against real book depth instead of mid-prices.
   - **Team:** Elcara LLC-FZ (Dubai), per the site's terms.
   - **Pricing:** free tier (5,000 credits/month, crypto markets, no card); Pro $17/mo, Scale $49/mo, Enterprise $549/mo ([pricing](https://resolvedmarkets.com/pricing)).
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
-- **[Kalshi & Polymarket Markets Scraper](https://apify.com/gratified_ashram/prediction-markets-scraper)**: Pay-per-row export of Kalshi and Polymarket markets from their public APIs into JSON, CSV or a scheduled dataset, with order-book depth, price history for both exchanges (Kalshi settled markets and candlesticks back to 2021, Polymarket daily/hourly/minute series back to 2024) and Polymarket comment threads and top holders.
-  Runs on Apify, so it also works as an MCP tool for AI agents and on a schedule for building your own archive. No exchange account or API key needed.
+- **[Kalshi & Polymarket Markets Scraper](https://apify.com/gratified_ashram/prediction-markets-scraper)**: Pay-per-row export of Kalshi and Polymarket markets to JSON or CSV, with order-book depth and price history back to 2021 (Kalshi) and 2024 (Polymarket).
+  Runs on Apify, on a schedule or as an MCP tool. No exchange account needed.
   - **Best for:** pulling a clean, filterable table of markets (by series, category, keyword, volume) with history attached, without writing API code.
   - **Team:** independent, self-disclosed (gratified_ashram on Apify).
   - **Pricing:** $1 per 1,000 records, order book +$1 per 1,000; Apify's free plan covers about 4,000 records a month.
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
-- **[Kalshi Weather Index](https://apify.com/gratified_ashram/kalshi-weather-index)**: Minute-by-minute temperature index Kalshi publishes for its hourly-temperature cities, as rows, plus NWS/METAR station observations and a settlement-audit row per city-day for the daily high/low markets.
-  The number the hourly temperature contracts settle on, exportable and schedulable; a free CC BY 4.0 hourly archive of the index since September 2026 is linked from the page. The daily high/low contracts settle on The Weather Company data, so the audit row is a cross-check, not settlement truth.
+- **[Kalshi Weather Index](https://apify.com/gratified_ashram/kalshi-weather-index)**: Minute-by-minute temperature index that Kalshi's hourly-temperature contracts settle on, plus NWS/METAR station data, exportable and schedulable.
+  Daily high/low contracts settle on The Weather Company data, so its audit row there is a cross-check, not settlement truth.
   - **Best for:** checking the actual settlement index behind Kalshi hourly temperature markets instead of a forecast site.
   - **Team:** independent, self-disclosed (gratified_ashram on Apify).
   - **Pricing:** $0.05 per 1,000 index points; station rows $0.50 and audit rows $2 per 1,000.
@@ -535,17 +536,16 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
-- **[The Rumpus](https://therumpus.ai)**: Free daily edition that matches live Polymarket and Kalshi markets against several news sources and explains what the prices mean.
-  Each morning it publishes dated, sourced stories, a market-wide analysis and a two-host podcast, Rumpus Daily.
-  Content is AI-generated: Claude writes the stories, analysis and podcast script, DeepSeek writes shorter front-page copy, story illustrations are AI-generated, and the podcast uses synthetic voices.
+- **[The Rumpus](https://therumpus.ai)**: Free daily edition that matches live Polymarket and Kalshi markets to the news and explains what the prices mean, with sourced stories and a daily podcast.
+  Content is AI-generated: Claude and DeepSeek write the text, illustrations are AI-made, and the podcast uses synthetic voices.
   - **Best for:** reading the day's news through the markets that price it.
   - **Team:** Matt O'Neill (Teemo Ltd), independent.
   - **Pricing:** free.
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
-- **[outcometick](https://outcometick.com)**: Historical tick data for the crypto Up/Down markets on Polymarket and Predict.fun, sold by API: the Chainlink streams they settle on, order books, Polymarket trade prints and each market's strike and outcome, archived since June 2026.
-  A hosted sandbox replays Python or Node.js strategies against the same archive, and the strategy SDK and `ot` CLI are MIT-licensed on npm and PyPI.
+- **[outcometick](https://outcometick.com)**: Historical tick data for crypto Up/Down markets on Polymarket and Predict.fun: the Chainlink streams they settle on, order books, trades and outcomes since June 2026.
+  A hosted sandbox replays Python or Node.js strategies against the archive.
   - **Best for:** backtesting Polymarket and Predict.fun crypto Up/Down strategies and recomputing settlements from the Chainlink feed.
   - **Team:** not publicly listed.
   - **Pricing:** $10/mo per venue ($18 for both) for the newest 30 days; one-time date ranges from $0.40/day; backtest credits from $2; one free sample day per venue ([pricing](https://outcometick.com/#pricing)).
@@ -567,8 +567,8 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 💸 Leverage, Lending & Yield
 
-- **[Dimes Multiply](https://dimes.fi)**: Embedded leverage layer that front-ends integrate to offer up to 10x on Polymarket positions, rather than a venue you trade on yourself.
-  B2B middleware: a terminal, wallet, or app calls a REST API and Dimes provisions the credit, hedges it, and settles it, so the integrator never runs margin in-house. Exposure is a contract-for-difference on Polygon settled in USDC, sized 2x-10x in 0.25x increments, and limited to binary and simple categorical markets. A "leverage decay" rule automatically cuts exposure as a market's book thins toward resolution, which is the gap-risk problem most leveraged prediction market products don't describe publicly. The TypeScript SDK is `@dimes-dot-fi/sdk` (MIT, source at [dimes-fi/dimes-sdk](https://github.com/dimes-fi/dimes-sdk)), with a reference frontend at [dimes-fi/dimes-demo-ui](https://github.com/dimes-fi/dimes-demo-ui), and sandbox mode runs without funds. An MCP server is on npm but its source repo is not currently public, and there is no longer a public Python client.
+- **[Dimes Multiply](https://dimes.fi)**: Embedded leverage layer that front-ends integrate to offer 2x-10x on Polymarket positions; not a venue you trade on yourself.
+  Exposure is a USDC-settled contract-for-difference on Polygon, and a "leverage decay" rule cuts exposure as a market's book thins toward resolution. TypeScript SDK (MIT) with a sandbox mode.
   - **Best for:** teams shipping a terminal or wallet who want margin as a feature without building a risk desk. Not directly useful to a retail trader, there is no Dimes front-end to trade on.
   - **Team:** no independent coverage found. The company states backing from Coinbase Ventures and Accel and an institutional underwriting facility with $100M+/month capacity; both are self-reported.
   - **Pricing:** not publicly listed. The protocol charges entry, time-based, and liquidation fees, and the integrating platform sets its own origination fee on the leveraged volume it generates.
