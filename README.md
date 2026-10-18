@@ -60,7 +60,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 - **[Polyrama](https://polyrama.io/)**: Free real-time terminal and [open-source MCP server](https://github.com/Polyrama/mcp) for Polymarket and Kalshi: live odds, market search, wallet analytics, leaderboards and whale signals.
   The MCP tools support research and paper orders only, not live execution.
   - **Best for:** researchers and AI agents that need one typed interface for cross-venue market and trader intelligence.
-  - **Team:** independent Polyrama team. Young project — the MCP server repo has minimal commit history as of Aug 2026, worth keeping an eye on.
+  - **Team:** independent Polyrama team. Young project with little public commit history so far.
   - **Pricing:** free.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
@@ -92,7 +92,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 - **[EventTracker](https://eventtracker.podcomet.ai)**: Dashboard combining 28 prediction-market and event-contract venues, including Polymarket, Kalshi, Novig and ProphetX.
   Whale-wallet following, cross-venue arbitrage detection and resolution alerts. Display-only: no wagers, no execution.
   - **Best for:** arbitrage and mispricing checks across a wider venue set than most single-platform aggregators cover.
-  - **Team:** six co-founders, headed by Tal Ayalon (PhD student, information science, Drexel University; prior data/information-systems work at the UN and World Bank).
+  - **Team:** six co-founders, headed by Tal Ayalon (PhD student, Drexel; prior UN and World Bank data work).
   - **Pricing:** free tier; premium $22/month or $199/year.
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
@@ -131,17 +131,17 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 - **[PolyBot](https://polybot.trading/)**: Telegram-native, self-custodial Polymarket trading bot that ranks smart wallets by copyability and copies them through your own Safe.
   Sizing, price and category filters, daily and per-position caps, and stop-loss, take-profit and trailing-stop controls.
-  - **Best for:** serious Polymarket traders who want to find wallets worth copying, pressure-test the edge, and automate the trade without leaving Telegram.
-  - **Team:** not publicly listed. Domain registered ~Sept 2025 and flagged low-trust by third-party scanners — self-custodial via your own Safe (not a private-key/seed-phrase model), but vet independently before connecting a wallet.
+  - **Best for:** finding wallets worth copying and automating the trade without leaving Telegram.
+  - **Team:** not publicly listed. Young domain flagged low-trust by scanners; self-custodial, but vet before connecting a wallet.
   - **Pricing:** 1% fee on successful trades.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
 - **[Garnet](https://github.com/AndreySchurko/garnet-polymarket)**: Self-hosted, source-available Polymarket copy-trading engine written in Rust.
   Detects followed wallets' trades three independent ways and mirrors them under per-event exposure caps, a daily loss stop and a killswitch, with a shadow mode that pays live fees.
-  - **Best for:** traders who already know which wallets they want to copy and would rather run the bot on their own server, with their own key, than hand either to a service.
+  - **Best for:** traders who know which wallets to copy and want to run the bot on their own server and key.
   - **Team:** Andrey Schurko (author).
-  - **Pricing:** free for individuals trading their own funds (BUSL-1.1, converts to Apache-2.0 in 2030); commercial license for companies and funds.
+  - **Pricing:** free for individuals (BUSL-1.1, Apache-2.0 from 2030); commercial license for companies.
   - **Phase:** live (v0.1.0).
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
@@ -180,7 +180,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 - **[Stand](https://www.stand.trade/)**: Trading terminal and aggregator for Kalshi and Polymarket with a "counter-trading" feature.
   Auto-fades historically unprofitable wallets instead of following the crowd.
   - **Best for:** traders who'd rather fade known losers than copy winners.
-  - **Team:** co-founded by Edward Ridgely (per Finance Magnates and The Defiant coverage). ~$200M annualized volume reported, no public funding disclosed.
+  - **Team:** co-founded by Edward Ridgely (per Finance Magnates and The Defiant); no public funding disclosed.
   - **Pricing:** not publicly listed.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
@@ -204,7 +204,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 - **[Kairos](https://kairos.trade/)**: Trading terminal and API across Kalshi, Polymarket, Predict.fun and Hyperliquid that merges matching contracts into one order book and routes to the best price.
   Strategy templates, backtesting on recorded books, and REST + WebSocket APIs with a free sandbox.
   - **Best for:** heavy cross-venue traders who don't want a separate login for every platform.
-  - **Team:** founded by ex-Cboe quants. Raised $2.5M led by a16z crypto with Geneva Trading participating (per a16z crypto and Fortune coverage).
+  - **Team:** founded by ex-Cboe quants; $2.5M raise led by a16z crypto (per a16z crypto and Fortune).
   - **Pricing:** free sandbox, paid tiers not publicly listed.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
@@ -300,7 +300,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 - **[Arkham: Polymarket Profitable Traders](https://arkm.com/tags/polymarket-profitable-trader)**: Arkham Intelligence's tag/filter view of Polymarket wallets with positive all-time PnL (realized plus unrealized).
   Not a ranked leaderboard, a filter for "currently profitable" wallets on Arkham's broader on-chain analytics platform.
   - **Best for:** filtering Polymarket wallets down to the ones that are actually profitable right now.
-  - **Team:** part of Arkham Intelligence, founded 2020. Raised $12M+ Series A backed by Peter Thiel and Sam Altman (per DL News, CoinCarp).
+  - **Team:** part of Arkham Intelligence (founded 2020; $12M+ Series A, per DL News).
   - **Pricing:** free to browse.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
@@ -367,9 +367,9 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 - **[PMWallets](https://pmwallets.com/)**: Polymarket trader leaderboard built from its own Polygon ledger, with linked wallets scored as one trader and win rates shown with 95% confidence intervals.
   Followed traders' fills can be pushed over WebSocket or webhook for copy trading.
-  - **Best for:** checking whether a trader's record holds up at the lower bound of its win-rate interval and without its best market, then following that trader's fills.
+  - **Best for:** checking whether a trader's record holds up statistically, then following their fills.
   - **Team:** not publicly listed.
-  - **Pricing:** free account to browse the whole board; plans $4.99 / $14.99 / $39.99 a month (7-day free trial on the $4.99 plan); fill feed $0.01 per wallet per hour.
+  - **Pricing:** free account; plans $4.99 / $14.99 / $39.99 a month; fill feed $0.01 per wallet per hour.
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
@@ -454,7 +454,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 - **[Poly Helper](https://polyhelper.io/)**: Free Chrome/Brave extension embedding 18+ contextual data panels directly into the Polymarket interface.
   Crypto prices, sports scores, macro data, whale tracking, and news, all in-context.
   - **Best for:** researching without leaving the Polymarket tab.
-  - **Team:** not publicly listed (a third-party directory attributes it to a small team holding a Polymarket Builders Badge, unconfirmed).
+  - **Team:** not publicly listed (a third-party directory credits a small team, unconfirmed).
   - **Pricing:** free.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
@@ -485,7 +485,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 - **[PolyOrderbooks](https://polyorderbooks.com)**: Read-only REST API and Python SDK for historical Polymarket crypto markets: prices, volume, liquidity, spreads and L2 order book snapshots.
   Down to 1-second resolution on paid plans, with public [docs](https://docs.polyorderbooks.com).
-  - **Best for:** backtests and research that need stored L2 depth and market-level time series without operating your own ingestion stack.
+  - **Best for:** backtests that need stored L2 depth and time series without running your own ingestion.
   - **Team:** independent product; not affiliated with Polymarket (per site).
   - **Pricing:** Starter free, Pro $19/mo, Scale $49/mo (public [pricing page](https://polyorderbooks.com/pricing)); Enterprise custom.
   - **Phase:** live.
@@ -495,13 +495,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   Includes an open-source Python backtester, [resolvedkit](https://github.com/resolvedmarkets/resolvedkit), that applies Polymarket's fee curve.
   - **Best for:** backtesting Polymarket crypto up/down strategies against real book depth instead of mid-prices.
   - **Team:** Elcara LLC-FZ (Dubai), per the site's terms.
-  - **Pricing:** free tier (5,000 credits/month, crypto markets, no card); Pro $17/mo, Scale $49/mo, Enterprise $549/mo ([pricing](https://resolvedmarkets.com/pricing)).
+  - **Pricing:** free tier (5,000 credits/month); Pro $17/mo, Scale $49/mo, Enterprise $549/mo.
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
 - **[Kalshi & Polymarket Markets Scraper](https://apify.com/gratified_ashram/prediction-markets-scraper)**: Pay-per-row export of Kalshi and Polymarket markets to JSON or CSV, with order-book depth and price history back to 2021 (Kalshi) and 2024 (Polymarket).
   Runs on Apify, on a schedule or as an MCP tool. No exchange account needed.
-  - **Best for:** pulling a clean, filterable table of markets (by series, category, keyword, volume) with history attached, without writing API code.
+  - **Best for:** pulling a filterable table of markets with history attached, without writing API code.
   - **Team:** independent, self-disclosed (gratified_ashram on Apify).
   - **Pricing:** $1 per 1,000 records, order book +$1 per 1,000; Apify's free plan covers about 4,000 records a month.
   - **Phase:** live.
@@ -548,14 +548,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   A hosted sandbox replays Python or Node.js strategies against the archive.
   - **Best for:** backtesting Polymarket and Predict.fun crypto Up/Down strategies and recomputing settlements from the Chainlink feed.
   - **Team:** not publicly listed.
-  - **Pricing:** $10/mo per venue ($18 for both) for the newest 30 days; one-time date ranges from $0.40/day; backtest credits from $2; one free sample day per venue ([pricing](https://outcometick.com/#pricing)).
+  - **Pricing:** $10/mo per venue ($18 for both); one-off date ranges and backtest credits sold separately.
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
 - **[Glypse](https://glypse.ai/)**: Market screener and event research for prediction markets, with briefings, social sentiment analysis, and a custom-pair arbitrage scanner. Free to use without an account.
   - **Best for:** researching the events and social sentiment behind prediction market prices.
   - **Team:** Glypse, Inc., founded by Doruk Senkal.
-  - **Pricing:** free tools and research without an account; a free account adds expanded market results, longer post feeds, and saved social queries.
+  - **Pricing:** free without an account; a free account adds more results, longer feeds and saved queries.
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
@@ -569,10 +569,10 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 - **[Dimes Multiply](https://dimes.fi)**: Embedded leverage layer that front-ends integrate to offer 2x-10x on Polymarket positions; not a venue you trade on yourself.
   Exposure is a USDC-settled contract-for-difference on Polygon, and a "leverage decay" rule cuts exposure as a market's book thins toward resolution. TypeScript SDK (MIT) with a sandbox mode.
-  - **Best for:** teams shipping a terminal or wallet who want margin as a feature without building a risk desk. Not directly useful to a retail trader, there is no Dimes front-end to trade on.
-  - **Team:** no independent coverage found. The company states backing from Coinbase Ventures and Accel and an institutional underwriting facility with $100M+/month capacity; both are self-reported.
-  - **Pricing:** not publicly listed. The protocol charges entry, time-based, and liquidation fees, and the integrating platform sets its own origination fee on the leveraged volume it generates.
-  - **Phase:** live API with public docs and published packages, but no partner integrations are publicly named. The TypeScript SDK is at 2.5.0; the Python client and MCP server sources were taken private in Aug 2026.
+  - **Best for:** teams adding margin to a terminal or wallet. No retail front-end to trade on.
+  - **Team:** not independently confirmed; self-reported backing from Coinbase Ventures and Accel.
+  - **Pricing:** not publicly listed; entry, time-based and liquidation fees, plus the integrator's own fee.
+  - **Phase:** live API and SDK (2.5.0); no partner integrations publicly named.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 - **[Gondor](https://gondor.fi)**: Lending against Polymarket positions: use them as collateral and borrow up to 50% of their current value without selling.
   Pre-launch, waitlist only. Interest rates, liquidation rules, custody and audits are not published yet.
