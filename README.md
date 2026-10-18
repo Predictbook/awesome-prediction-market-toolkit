@@ -1,6 +1,6 @@
 <a name="top"></a>
 
-# A List of Prediction Market Analytics Tools You Should Use Before Losing Money
+# A List of Prediction Market Tools You Should Know Before Losing Money
 
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)
@@ -8,7 +8,7 @@
 
 Maintained by [Predictbook](https://predictbook.co): independent market-mechanics analysis for prediction markets, odds, volume, and timing, not headlines. Follow the breakdowns on [X](https://x.com/predictbook) or [Telegram](https://t.me/PredictbookAnalysis), or get real-time move alerts on [Telegram](https://t.me/Predictbook).
 
-A working list of tools for trading, tracking, and researching prediction markets (Polymarket, Kalshi, and others). Each entry covers what it does, what it's best for, who's behind it (where that's actually public), pricing, and phase. Entries are added as they're found. Nothing here is guaranteed to be maintained by its creators, so vet anything you connect a wallet to.
+A working list of tools for trading, tracking, researching, and financing positions on prediction markets (Polymarket, Kalshi, and others). Each entry covers what it does, what it's best for, who's behind it (where that's actually public), pricing, and phase. Entries are added as they're found. Nothing here is guaranteed to be maintained by its creators, so vet anything you connect a wallet to.
 
 Want all of the tools below in one place? Follow the [Prediction Market Tools X List](https://x.com/i/lists/2087458894452818184).
 
@@ -18,9 +18,9 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 📊 At a Glance
 
-| Tools | Categories | Contributors | GitHub views (7 wks) |
+| Tools | Categories | Contributors | GitHub views (last 8 wks) |
 |---|---|---|---|
-| 59 (+9 this wk) | 7 | 22 (+8 this wk) | 995 |
+| 61 (+2 this wk) | 8 | 24 (+2 this wk) | 1,027 |
 
 *Updated every Sunday.*
 
@@ -30,11 +30,12 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 |---|---|---|
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
 | [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 5 |
-| [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 10 |
+| [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 9 |
 | [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 2 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
-| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 14 |
+| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 15 |
+| [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 1 |
 | [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 1 |
 
 ---
@@ -223,14 +224,6 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Pricing:** not publicly listed.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
-
-- **[Dimes Multiply](https://dimes.fi)**: Embedded leverage layer that front-ends integrate to offer up to 10x on Polymarket positions, rather than a venue you trade on yourself.
-  B2B middleware: a terminal, wallet, or app calls a REST API and Dimes provisions the credit, hedges it, and settles it, so the integrator never runs margin in-house. Exposure is a contract-for-difference on Polygon settled in USDC, sized 2x-10x in 0.25x increments, and limited to binary and simple categorical markets. A "leverage decay" rule automatically cuts exposure as a market's book thins toward resolution, which is the gap-risk problem most leveraged prediction market products don't describe publicly. The TypeScript SDK is `@dimes-dot-fi/sdk` (MIT, source at [dimes-fi/dimes-sdk](https://github.com/dimes-fi/dimes-sdk)), with a reference frontend at [dimes-fi/dimes-demo-ui](https://github.com/dimes-fi/dimes-demo-ui), and sandbox mode runs without funds. An MCP server is on npm but its source repo is not currently public, and there is no longer a public Python client.
-  - **Best for:** teams shipping a terminal or wallet who want margin as a feature without building a risk desk. Not directly useful to a retail trader, there is no Dimes front-end to trade on.
-  - **Team:** no independent coverage found. The company states backing from Coinbase Ventures and Accel and an institutional underwriting facility with $100M+/month capacity; both are self-reported.
-  - **Pricing:** not publicly listed. The protocol charges entry, time-based, and liquidation fees, and the integrating platform sets its own origination fee on the leveraged volume it generates.
-  - **Phase:** live API with public docs and published packages, but no partner integrations are publicly named. The TypeScript SDK is at 2.5.0; the Python client and MCP server sources were taken private in Aug 2026.
-  - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
 [↑ Back to top](#top)
 
@@ -565,6 +558,22 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Pricing:** free tools and research without an account; a free account adds expanded market results, longer post feeds, and saved social queries.
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
+[↑ Back to top](#top)
+
+---
+
+<a name="leverage-lending--yield"></a>
+
+## 💸 Leverage, Lending & Yield
+
+- **[Dimes Multiply](https://dimes.fi)**: Embedded leverage layer that front-ends integrate to offer up to 10x on Polymarket positions, rather than a venue you trade on yourself.
+  B2B middleware: a terminal, wallet, or app calls a REST API and Dimes provisions the credit, hedges it, and settles it, so the integrator never runs margin in-house. Exposure is a contract-for-difference on Polygon settled in USDC, sized 2x-10x in 0.25x increments, and limited to binary and simple categorical markets. A "leverage decay" rule automatically cuts exposure as a market's book thins toward resolution, which is the gap-risk problem most leveraged prediction market products don't describe publicly. The TypeScript SDK is `@dimes-dot-fi/sdk` (MIT, source at [dimes-fi/dimes-sdk](https://github.com/dimes-fi/dimes-sdk)), with a reference frontend at [dimes-fi/dimes-demo-ui](https://github.com/dimes-fi/dimes-demo-ui), and sandbox mode runs without funds. An MCP server is on npm but its source repo is not currently public, and there is no longer a public Python client.
+  - **Best for:** teams shipping a terminal or wallet who want margin as a feature without building a risk desk. Not directly useful to a retail trader, there is no Dimes front-end to trade on.
+  - **Team:** no independent coverage found. The company states backing from Coinbase Ventures and Accel and an institutional underwriting facility with $100M+/month capacity; both are self-reported.
+  - **Pricing:** not publicly listed. The protocol charges entry, time-based, and liquidation fees, and the integrating platform sets its own origination fee on the leveraged volume it generates.
+  - **Phase:** live API with public docs and published packages, but no partner integrations are publicly named. The TypeScript SDK is at 2.5.0; the Python client and MCP server sources were taken private in Aug 2026.
+  - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
 [↑ Back to top](#top)
 
