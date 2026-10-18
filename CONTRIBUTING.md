@@ -13,7 +13,7 @@ Pull requests are the fastest way to get a tool added or corrected. Issues are f
   - **Best for:** the one thing this tool is genuinely best at — not a feature list.
   - **Team:** names if public, or "not publicly listed" if not. Don't leave this blank.
   - **Pricing:** what it actually costs, or "not publicly listed."
-  - **Phase:** live / beta / etc.
+  - **Phase:** live / beta / pre-launch.
   - **Added:** Mon YYYY · **Reviewed:** Mon YYYY
 ```
 
@@ -29,7 +29,7 @@ Pull requests are the fastest way to get a tool added or corrected. Issues are f
 
 Every submission gets checked before it goes in, PR or issue either way:
 
-- **The tool has to be real, not vaporware.** I check the actual product, not just the pitch in the PR description. It doesn't have to be fully live — the list has a **beta** Phase for tools that are working but not yet public — but there has to be a real product behind it, not just a landing page and a roadmap.
+- **The tool has to be real, not vaporware.** I check the actual product, not just the pitch in the PR description. It doesn't have to be fully live — the list has a **beta** Phase for tools that are working but not yet public — but there has to be a real product behind it, not just a landing page and a roadmap. The one exception: pre-launch tools can be listed at the maintainer's discretion, clearly marked as pre-launch, with anything not yet published (fees, custody, team, audits) stated plainly.
 - **No unverified performance claims.** "Guaranteed profit," self-reported win rates, or ROI numbers with no source get held until they're either removed or backed up. This list exists so people don't lose money to exactly this kind of claim.
 - **Team info gets stated plainly, not spun.** If nothing's public, the entry says "not publicly listed" — that's fine, vague marketing copy standing in for it isn't.
 - **Category has to actually fit.** A tool that's mostly a crypto-perps dashboard doesn't become a prediction-market tool because the PR says it is.
