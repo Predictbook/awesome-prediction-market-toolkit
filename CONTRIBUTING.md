@@ -21,6 +21,8 @@ Pull requests are the fastest way to get a tool added or corrected. Issues are f
 
 **Keep it short.** Aim for about 150 to 250 characters on the first line, and one extra line at most. Anything users need to stay safe stays in (custody, leverage risk, read-only status, AI-generated content). Feature lists, SDK and version details, and marketing copy get trimmed on merge.
 
+**One line per field.** Best for, Team, Pricing and Phase each fit on one line (about 120 characters max). Link to a pricing or about page instead of listing every detail.
+
 3. Open a PR against `README.md` with that entry added, in the right place in its section.
 
 ## How entries get vetted
