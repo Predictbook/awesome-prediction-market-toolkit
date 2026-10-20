@@ -153,6 +153,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## ⚡ Trading Terminals & Execution
 
+- **[Melbo](https://melbo.io/)**: Melbo is a non-custodial interface to prediction markets: trade Yes/No shares on real-world events, where the price shows the market's probability.
+  Deposits and withdrawals in USDC on Polygon. No fiat payments. Not available in restricted jurisdictions (see Terms §3.2).
+  - **Best for:** Sign in with email, Google or Telegram, trade in USDC on Polygon from $1.
+  - **Team:** not publicly listed.
+  - **Pricing:** Free to use; trading fees (1% on market orders + liquidity fee). [Fees](https://melbo.io/en/fees).
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 - **[oracle3](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent)**: Open-source trading engine for Kalshi, Polymarket and Solana that checks fee-adjusted arbitrage across related contracts.
   Backtesting, live or paper trading under pre-trade risk limits, and an MCP server for AI agents.
   - **Best for:** finding cross-contract and cross-venue arbitrage net of fees, from Python or from an AI agent.
