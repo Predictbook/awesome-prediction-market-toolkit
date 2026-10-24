@@ -169,6 +169,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
+- **[OpenThomas](https://github.com/PredictionMarketTrader/openthomas)**: Open-source Python AI agent that trades weather prediction markets on Kalshi and Polymarket.
+  Builds strike probabilities from a 7-model weather forecast consensus, learns NWS station bias via leak-free hindcasts, sizes positions with fractional Kelly under hard risk limits, and supports paper or live execution (`pip install openthomas`).
+  - **Best for:** traders and developers who want a self-hosted, open-source weather trading agent across Kalshi and Polymarket.
+  - **Team:** PredictionMarketTrader (open-source maintainer).
+  - **Pricing:** free, open-source (MIT).
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 - **[Sonist](https://sonist.tech/)**: Automates live mention-market trading on Kalshi and Polymarket.
   Monitors live audio, subtitles or captions for configured words and, when one is said, sends the trade through your account within your risk limits.
   - **Best for:** mention-market traders who want automated execution from the lowest-latency live source available for each event.
