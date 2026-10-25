@@ -31,7 +31,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
 | [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 5 |
 | [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 9 |
-| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 2 |
+| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
 | [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 16 |
@@ -248,6 +248,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Pricing:** not publicly listed.
   - **Phase:** live (some features coming soon).
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
+
+- **[StrikePing](https://strikeping.com/demo/kalshi-btc)**: Public, timestamped forecasts on Kalshi's 15-minute BTC contracts, graded against Kalshi's official results.
+  Shadow validation: no trades or customer contract alerts; Coinbase spot proxy, not the settlement benchmark. Gaps and rate limits remain visible.
+  - **Best for:** inspecting prospective BTC forecasts and collection gaps before relying on the model.
+  - **Team:** [CurrentIQ LLC](https://strikeping.com/terms), the publicly identified operator.
+  - **Pricing:** contract record free to view; the $29/month plan covers spot alerts, not contracts.
+  - **Phase:** beta (shadow validation).
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
 [↑ Back to top](#top)
 
