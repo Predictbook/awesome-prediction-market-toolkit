@@ -105,7 +105,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 ## 🤖 Trade Copying & Automation
 
 - **[Whalidate](https://whalidate.com/)**: Web app for copy trading on Polymarket that scores wallets on how they made their money (settled trades, worst drawdown, share of profit from one trade) and copies only the trades that pass your rules.
-  Every strategy runs on paper first, free with no time limit; live trading is on a paid plan.
+  Every strategy runs on paper first, free with no time limit; live trading is on a paid plan, in one of two ways: from the user's own Polymarket account through a session key (the service never holds the account's keys; the key can place and cancel orders but cannot withdraw, lasts 180 days and can be revoked at any time), or from a Polygon wallet the service creates and holds the private keys of.
   - **Best for:** screening out wallets whose record rests on one lucky trade, then testing a copy strategy on paper before any real money moves.
   - **Team:** not publicly listed.
   - **Pricing:** free (paper only); Starter $49/mo, Pro $149/mo, Elite $349/mo, or $490 / $1,490 / $3,490 a year; paid in crypto, no per-trade fee.
