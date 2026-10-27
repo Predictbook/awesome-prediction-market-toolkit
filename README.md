@@ -153,11 +153,11 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## ⚡ Trading Terminals & Execution
 
-- **[Melbo](https://melbo.io/)**: Melbo is a non-custodial interface to prediction markets: trade Yes/No shares on real-world events, where the price shows the market's probability.
-  Deposits and withdrawals in USDC on Polygon. No fiat payments. Not available in restricted jurisdictions (see Terms §3.2).
-  - **Best for:** Sign in with email, Google or Telegram, trade in USDC on Polygon from $1.
+- **[Melbo](https://melbo.io/)**: Web app for trading Polymarket markets: sign in with email, Google or Telegram, with no extension or seed phrase. Trades start at $1 and Melbo pays the network gas. Orders execute on Polymarket's order book and settle on Polygon.
+  Non-custodial: the wallet created at sign-up belongs to the user and can be exported. USDC on Polygon only, no fiat. Not available in restricted jurisdictions (see Terms §3.2).
+  - **Best for:** People new to on-chain markets who want email sign-in, gasless trades and an interface in 18 languages.
   - **Team:** not publicly listed.
-  - **Pricing:** Free to use; trading fees (1% on market orders + liquidity fee). [Fees](https://melbo.io/en/fees).
+  - **Pricing:** Market orders: 1% Melbo fee on top of the underlying market's fee. Limit orders, deposits and withdrawals: free. [Fees](https://melbo.io/en/fees).
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
