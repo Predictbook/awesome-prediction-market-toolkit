@@ -153,6 +153,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## ⚡ Trading Terminals & Execution
 
+- **[Lucyd MCP](https://github.com/Lucyd-trade/mcp-server)**: Open-source MCP server for trading Lucyd's onchain Bitcoin Up/Down markets (5m to daily) from Claude, Cursor or any MCP agent.
+  Keys stay local; without a key it runs read-only. Lucyd currently runs on testnet (Sepolia).
+  - **Best for:** letting an AI agent read order books and place or cancel orders on short BTC Up/Down markets.
+  - **Team:** not publicly listed.
+  - **Pricing:** free, open-source (MIT).
+  - **Phase:** beta.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 - **[oracle3](https://github.com/YichengYang-Ethan/oracle3-prediction-market-agent)**: Open-source trading engine for Kalshi, Polymarket and Solana that checks fee-adjusted arbitrage across related contracts.
   Backtesting, live or paper trading under pre-trade risk limits, and an MCP server for AI agents.
   - **Best for:** finding cross-contract and cross-venue arbitrage net of fees, from Python or from an AI agent.
