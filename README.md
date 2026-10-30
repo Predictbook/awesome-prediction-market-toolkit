@@ -145,6 +145,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live (v0.1.0).
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
+- **[Windmill](https://windmill.markets/?r=predictbook)**: Hosted builder that turns a plain-English strategy into an AI agent trading Kalshi on a schedule, on paper or live with your own Kalshi API key.
+  Paper orders fill against Kalshi's live order books with Kalshi's fees; its own published paper tests found no lasting edge.
+  - **Best for:** testing a Kalshi rule on paper before putting money on it.
+  - **Team:** not publicly listed.
+  - **Pricing:** free on paper, no card; Pro $20/mo.
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 [↑ Back to top](#top)
 
 ---
