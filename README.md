@@ -31,7 +31,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
 | [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 5 |
 | [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 9 |
-| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 2 |
+| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
 | [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 16 |
@@ -248,6 +248,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Pricing:** not publicly listed.
   - **Phase:** live (some features coming soon).
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
+
+- **[Sports Odds API](https://apify.com/publicrecords/sports-odds-api)**: Live sportsbook odds from BetRivers, Unibet, Paf, Svenska Spel and ATG in one call, one row per game with every book's price and the best price.
+  Read-only data feed on Apify; a sportsbook reference price to compare against sports contracts on Kalshi or Polymarket.
+  - **Best for:** checking a sports market's implied probability against where the sportsbooks have the same game.
+  - **Team:** Public Records (Apify publisher); names not publicly listed.
+  - **Pricing:** pay per event on Apify (per game returned), see the [listing](https://apify.com/publicrecords/sports-odds-api).
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
 
 [↑ Back to top](#top)
 
