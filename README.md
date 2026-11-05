@@ -145,6 +145,19 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live (v0.1.0).
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
+- **[WhichBot](https://whichbot.ai/prediction-markets/)**: Free directory that compares prediction-market trading bots for Polymarket and Kalshi.
+  - **Best for:** comparing Polymarket/Kalshi bots side by side before picking one.
+  - **Team:** not publicly listed.
+  - **Pricing:** free to browse; some outbound links are affiliate links.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
+
+
+
+
+
+
 [↑ Back to top](#top)
 
 ---
