@@ -1,6 +1,6 @@
 # awesome-prediction-market-toolkit
 
-> A curated, maintained list of prediction market tools: odds, volume and wallet tracking, execution, alerts, data and APIs, and leverage, lending and yield, across Polymarket, Kalshi, and others. Maintained by Predictbook.
+> A curated, maintained list of prediction market tools: odds, volume and wallet tracking, execution, alerts, data and APIs, and leverage, lending and yield, across Polymarket, Kalshi, and others. Maintained by Tal Shmuel Harel.
 
 ## What this is
 Each entry is a real, vetted tool, not a marketing pitch. Entries include what the tool is best for, team, pricing, and phase (live/beta). See CONTRIBUTING.md for how entries get added and vetted.
