@@ -41,6 +41,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 🌐 Cross-Platform Odds Aggregators
 
+- **[Predxy](https://predxy.com/)**: Market index for what happens next: think CoinMarketCap for prediction markets with a newsroom's sense of what matters. 15 venues already aggregated, including Polymarket, Kalshi, and Hyperliquid.
+  - **Best for:** finding the odds on a question without searching every venue.
+  - **Team:** not publicly listed.
+  - **Pricing:** see https://predxy.com/developers.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
 - **[Polyrama](https://polyrama.io/)**: Free real-time terminal and [open-source MCP server](https://github.com/Polyrama/mcp) for Polymarket and Kalshi: live odds, market search, wallet analytics, leaderboards and whale signals.
   The MCP tools support research and paper orders only, not live execution.
   - **Best for:** researchers and AI agents that need one typed interface for cross-venue market and trader intelligence.
