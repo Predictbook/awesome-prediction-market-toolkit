@@ -4,13 +4,10 @@
 
 ![Maintained](https://img.shields.io/badge/Maintained%3F-yes-brightgreen.svg)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue.svg)
-[![Telegram](https://img.shields.io/badge/Telegram-Predictbook_Analysis-26A5E4?logo=telegram&logoColor=white)](https://t.me/PredictbookAnalysis)
 
-Maintained by [Predictbook](https://predictbook.co): independent market-mechanics analysis for prediction markets, odds, volume, and timing, not headlines. Follow the breakdowns on [X](https://x.com/predictbook) or [Telegram](https://t.me/PredictbookAnalysis), or get real-time move alerts on [Telegram](https://t.me/Predictbook).
+Maintained by Tal Shmuel Harel: [X](https://x.com/TalHarelTal) · [LinkedIn](https://www.linkedin.com/in/talshmuelharel/)
 
 A working list of tools for trading, tracking, researching, and financing positions on prediction markets (Polymarket, Kalshi, and others). Each entry covers what it does, what it's best for, who's behind it (where that's actually public), pricing, and phase. Entries are added as they're found. Nothing here is guaranteed to be maintained by its creators, so vet anything you connect a wallet to.
-
-Want all of the tools below in one place? Follow the [Prediction Market Tools X List](https://x.com/i/lists/2087458894452818184).
 
 Every tool here gets reviewed monthly to catch dead links, pulled products, and anything that's gone quiet. Flag anything we've missed and we'll get to it.
 
@@ -18,38 +15,25 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 📊 At a Glance
 
-| Tools | Categories | Contributors | GitHub views (last 8 wks) |
+| Tools | Categories | Contributors | GitHub views (last 2 months) |
 |---|---|---|---|
-| 63 (+1 this wk) | 8 | 25 (+1 this wk) | 1,026 |
+| 67 (+4 since last update) | 8 | 29 (+4 since last update) | 1,059 |
 
-*Updated every Sunday.*
+*Updated every other Sunday.*
 
 ## Contents
 
 | Category | What it covers | Tools |
 |---|---|---|
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
-| [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 5 |
-| [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 9 |
+| [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 6 |
+| [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 11 |
 | [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
 | [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 16 |
 | [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 2 |
-| [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 1 |
-
----
-
-<a name="featured"></a>
-
-## ⭐ Featured
-
-- **[Predictbook](https://predictbook.co)**: Independent prediction-market intelligence, built to make Kalshi and Polymarket pricing actually legible.
-  Real-time monitoring across politics, crypto, sports, tech, and economics, plus whale-move tracking and cross-platform arbitrage spotting. This is written analysis, not just alerts: every piece cites its sources and links the underlying market, explaining not just what a price is but why it got there and what trade it implies.
-  - **Best for:** anyone who wants the numbers explained in writing, not just pinged at.
-  - **Follow:** [X](https://x.com/predictbook) · [Substack](https://predictbook.substack.com/) · [Telegram (analysis)](https://t.me/PredictbookAnalysis) · [Telegram (alerts)](https://t.me/Predictbook)
-
-[↑ Back to top](#top)
+| [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 2 |
 
 ---
 
@@ -106,10 +90,10 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 ## 🤖 Trade Copying & Automation
 
 - **[Whalidate](https://whalidate.com/)**: Web app for copy trading on Polymarket that scores wallets on how they made their money (settled trades, worst drawdown, share of profit from one trade) and copies only the trades that pass your rules.
-  Every strategy runs on paper first, free with no time limit; live trading is on a paid plan, in one of two ways: from the user's own Polymarket account through a session key (the service never holds the account's keys; the key can place and cancel orders but cannot withdraw, lasts 180 days and can be revoked at any time), or from a Polygon wallet the service creates and holds the private keys of.
+  Paper first, free. Live trading (paid) runs either through a revocable session key on your own Polymarket account (can't withdraw) or from a Polygon wallet the service creates and holds the private keys of.
   - **Best for:** screening out wallets whose record rests on one lucky trade, then testing a copy strategy on paper before any real money moves.
   - **Team:** not publicly listed.
-  - **Pricing:** free (paper only); Starter $49/mo, Pro $149/mo, Elite $349/mo, or $490 / $1,490 / $3,490 a year; paid in crypto, no per-trade fee.
+  - **Pricing:** free (paper only); paid plans $49 to $349/mo, in crypto, no per-trade fee.
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
@@ -169,11 +153,11 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** beta.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
-- **[Melbo](https://melbo.io/)**: Web app for trading Polymarket markets: sign in with email, Google or Telegram, with no extension or seed phrase. Trades start at $1 and Melbo pays the network gas. Orders execute on Polymarket's order book and settle on Polygon.
-  Non-custodial: the wallet created at sign-up belongs to the user and can be exported. USDC on Polygon only, no fiat. Not available in restricted jurisdictions (see Terms §3.2).
-  - **Best for:** People new to on-chain markets who want email sign-in, gasless trades and an interface in 18 languages.
-  - **Team:** not publicly listed.
-  - **Pricing:** Market orders: 1% Melbo fee on top of the underlying market's fee. Limit orders, deposits and withdrawals: free. [Fees](https://melbo.io/en/fees).
+- **[Melbo](https://melbo.io/)**: Web app for trading Polymarket markets with email, Google or Telegram sign-in, no extension or seed phrase. Orders execute on Polymarket's order book; Melbo pays the gas.
+  Non-custodial wallet you can export. USDC on Polygon only, $1 minimum. Not available in restricted jurisdictions (Terms §3.2).
+  - **Best for:** people new to onchain markets who want email sign-in, gasless trades and an interface in 18 languages.
+  - **Team:** not publicly listed; Terms name only "MELBO" (BVI law).
+  - **Pricing:** 1% on market orders on top of the market's fee; limit orders free. [Fees](https://melbo.io/en/fees).
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
@@ -635,6 +619,11 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Team:** fully anonymous, never disclosed.
   - **Added:** Aug 2026 · **Removed:** Aug 2026 (site inactive).
 
+- **[Predictbook](https://predictbook.co)**: Prediction-market analysis of Kalshi and Polymarket pricing, with whale-move tracking and written market breakdowns.
+  Shut down in November 2026 (left here for reference, not as a live recommendation).
+  - **Team:** Tal Shmuel Harel, this list's maintainer.
+  - **Added:** Aug 2026 · **Removed:** Nov 2026 (project shut down).
+
 [↑ Back to top](#top)
 
 ---
@@ -643,13 +632,15 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 🔗 Related Lists
 
-Other directories of prediction market tools. Both offer paid listing options for makers.
+Other directories of prediction market tools. Some offer paid or featured listings, or use affiliate links.
 
+- [PredictionMarket.tools](https://www.predictionmarket.tools/): Polymarket and Kalshi tool directory with comparisons, calculators and bot guides.
 - [LaunchPoly](https://launchpoly.com): Polymarket and Kalshi tools ranked weekly by trader votes, with comparisons and calculators.
 - [Prediction Market Use Cases](https://prediction-market-use-cases.vercel.app/): open-source Kalshi and Polymarket bots, AI agents and data tools, linked to their source.
+- [WhichBot](https://whichbot.ai/prediction-markets/): compares Polymarket and Kalshi trading bots and analytics tools that can't withdraw user funds.
 
 [↑ Back to top](#top)
 
 ---
 
-Missing a tool, or something here is out of date? This list is maintained by [Predictbook](https://predictbook.co). Reach out and we'll add or fix it.
+Missing a tool, or something here is out of date? Open a PR, or reach out on [X](https://x.com/TalHarelTal) and I'll add or fix it.
