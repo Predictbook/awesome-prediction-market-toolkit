@@ -589,6 +589,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 <a name="leverage-lending--yield"></a>
 
+- **[Rizon](https://rizon.markets)**: Paper-money exchange with live order books, a public API and an MCP server, for practicing or testing a bot before using real money.
+  Practice money only, on its own contract, which pays a fixed 2× on a book of strikes. It isn't a route to trade on Polymarket or Kalshi.
+  - **Best for:** testing a quoting bot or practicing order flow with no sign-up and nothing at risk.
+  - **Team:** not publicly listed.
+  - **Pricing:** free.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
 ## 💸 Leverage, Lending & Yield
 
 - **[Dimes Multiply](https://dimes.fi)**: Embedded leverage layer that front-ends integrate to offer 2x-10x on Polymarket positions; not a venue you trade on yourself.
