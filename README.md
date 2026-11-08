@@ -20,7 +20,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 | Tools | Categories | Contributors | GitHub views (last 8 wks) |
 |---|---|---|---|
-| 62 (+3 this wk) | 8 | 24 (+2 this wk) | 1,027 |
+| 63 (+1 this wk) | 8 | 25 (+1 this wk) | 1,026 |
 
 *Updated every Sunday.*
 
@@ -31,10 +31,10 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
 | [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 5 |
 | [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 9 |
-| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 2 |
+| [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
-| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 15 |
+| [🧠 Research & Market Discovery](#research--market-discovery) | find and dig into markets and data worth watching. | 16 |
 | [💸 Leverage, Lending & Yield](#leverage-lending--yield) | borrow against, lever up, or earn yield on positions. | 2 |
 | [☠️ No Longer Maintained](#no-longer-maintained) | tools that used to be here, now dead or abandoned. | 1 |
 
@@ -105,6 +105,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 ## 🤖 Trade Copying & Automation
 
+- **[Whalidate](https://whalidate.com/)**: Web app for copy trading on Polymarket that scores wallets on how they made their money (settled trades, worst drawdown, share of profit from one trade) and copies only the trades that pass your rules.
+  Every strategy runs on paper first, free with no time limit; live trading is on a paid plan, in one of two ways: from the user's own Polymarket account through a session key (the service never holds the account's keys; the key can place and cancel orders but cannot withdraw, lasts 180 days and can be revoked at any time), or from a Polygon wallet the service creates and holds the private keys of.
+  - **Best for:** screening out wallets whose record rests on one lucky trade, then testing a copy strategy on paper before any real money moves.
+  - **Team:** not publicly listed.
+  - **Pricing:** free (paper only); Starter $49/mo, Pro $149/mo, Elite $349/mo, or $490 / $1,490 / $3,490 a year; paid in crypto, no per-trade fee.
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 - **[PolyCopy](https://polycopy.app/)**: Non-custodial Polymarket copy-trading dashboard with an algorithmic "Copy Score."
   Grades traders by category track record rather than raw follower counts, with optional auto-copy bots.
   - **Best for:** picking who to copy based on real category performance, not follower count.
@@ -152,6 +160,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 <a name="trading-terminals--execution"></a>
 
 ## ⚡ Trading Terminals & Execution
+
+- **[Lucyd MCP](https://github.com/Lucyd-trade/mcp-server)**: Open-source MCP server for trading Lucyd's onchain Bitcoin Up/Down markets (5m to daily) from Claude, Cursor or any MCP agent.
+  Keys stay local; without a key it runs read-only. Lucyd currently runs on testnet (Sepolia).
+  - **Best for:** letting an AI agent read order books and place or cancel orders on short BTC Up/Down markets.
+  - **Team:** not publicly listed.
+  - **Pricing:** free, open-source (MIT).
+  - **Phase:** beta.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
 - **[Melbo](https://melbo.io/)**: Web app for trading Polymarket markets: sign in with email, Google or Telegram, with no extension or seed phrase. Trades start at $1 and Melbo pays the network gas. Orders execute on Polymarket's order book and settle on Polygon.
   Non-custodial: the wallet created at sign-up belongs to the user and can be exported. USDC on Polygon only, no fiat. Not available in restricted jurisdictions (see Terms §3.2).
@@ -257,6 +273,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live (some features coming soon).
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
 
+- **[StrikePing](https://strikeping.com/demo/kalshi-btc)**: Public, timestamped forecasts on Kalshi's 15-minute BTC contracts, graded against Kalshi's official results.
+  Shadow validation: no trades or customer contract alerts; Coinbase spot proxy, not the settlement benchmark. Gaps and rate limits remain visible.
+  - **Best for:** inspecting prospective BTC forecasts and collection gaps before relying on the model.
+  - **Team:** [CurrentIQ LLC](https://strikeping.com/terms), the publicly identified operator.
+  - **Pricing:** contract record free to view; the $29/month plan covers spot alerts, not contracts.
+  - **Phase:** beta (shadow validation).
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
 [↑ Back to top](#top)
 
 ---
@@ -358,7 +382,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
-- **[sg.tips](https://sg.tips/)**: Sports prediction-market tracker for Polymarket, Kalshi and SX, with per-match probabilities and the positions and track records of screened public accounts.
+- **[Tips (x.tips / sg.tips)](https://x.tips/)**: Sports prediction-market tracker for Polymarket, Kalshi and SX, with per-match probabilities and the positions and track records of screened public accounts.
   Publishes a weekly CC BY 4.0 [dataset](https://github.com/tipsstats/prediction-market-pro-stats).
   - **Best for:** seeing which screened public accounts hold positions on an upcoming sports match.
   - **Team:** not publicly listed.
@@ -564,6 +588,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Best for:** researching the events and social sentiment behind prediction market prices.
   - **Team:** Glypse, Inc., founded by Doruk Senkal.
   - **Pricing:** free without an account; a free account adds more results, longer feeds and saved queries.
+  - **Phase:** live.
+  - **Added:** Oct 2026 · **Reviewed:** Oct 2026
+
+- **[Perfect Clock](https://perfectclock.cc/polymarket)**: Free timeline calendars that put Polymarket markets next to the events they resolve on: F1 sessions, NBA and NHL games, Fed and CPI decisions, daily BTC/ETH prices, rocket launches.
+  Times are shown in your own time zone; odds are a snapshot refreshed once a day, not a live feed.
+  - **Best for:** seeing which markets resolve when, in your local time, without converting from UTC.
+  - **Team:** independent developer, Alexei Panov (self-disclosed).
+  - **Pricing:** free, no account or wallet needed.
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
