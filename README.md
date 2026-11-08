@@ -272,7 +272,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 <a name="wallet--trader-analytics"></a>
 
 ## 🔍 Wallet & Trader Analytics
-
+- **[Portfin](https://portfin.app)**: Free, privacy-first portfolio tracker for iOS and Android. Tracks personal Polymarket positions alongside stocks, ETFs, crypto, and Hyperliquid perpetual futures. Read-only, with no trading or registration required. User data stays on the device.
+  - **Best for:** tracking personal Polymarket positions alongside other investments in one app.
+  - **Team:** Digital CR Inc.
+  - **Pricing:** free.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+   
 - **[Polysights](https://www.polysights.xyz/)**: Analytics-and-execution platform for Polymarket covering market discovery and insider-wallet detection.
   Includes a trading terminal with API/CLI access.
   - **Best for:** spotting sharp wallets before the price catches up.
