@@ -27,7 +27,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 |---|---|---|
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
 | [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 6 |
-| [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 11 |
+| [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 12 |
 | [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
 | [🐋 Alerts & Whale Monitoring](#alerts--whale-monitoring) | get pinged on big trades and unusual wallet activity. | 7 |
@@ -144,6 +144,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 <a name="trading-terminals--execution"></a>
 
 ## ⚡ Trading Terminals & Execution
+
+- **[EVDESK](https://evdesk.ai/)**: Trading desk for Kalshi: every open market, the full order book, the fee on both routes (take now or rest a limit order), Kelly sizing, and order placement on Kalshi from your own account.
+  Also runs free Kalshi tools with no sign-up: a [fee calculator](https://evdesk.ai/tools/kalshi-fee-calculator), an [odds converter](https://evdesk.ai/tools/kalshi-odds-converter) that shows the after-fee break-even, and a [Kelly and EV calculator](https://evdesk.ai/tools/kelly-ev-calculator).
+  - **Best for:** Kalshi traders who want book depth, the exact fee and position sizing on one screen before they place an order.
+  - **Team:** EV DESK LLC; individuals not publicly listed.
+  - **Pricing:** tools free; desk $149/mo with three days free, or $199/mo with more AI analyst credits.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
 
 - **[Lucyd MCP](https://github.com/Lucyd-trade/mcp-server)**: Open-source MCP server for trading Lucyd's onchain Bitcoin Up/Down markets (5m to daily) from Claude, Cursor or any MCP agent.
   Keys stay local; without a key it runs read-only. Lucyd currently runs on testnet (Sepolia).
