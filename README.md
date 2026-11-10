@@ -265,6 +265,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** beta (shadow validation).
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
+- **[NeuPortal Forecast Ledger](https://neuportal.ai/experiment)**: Public log of 7,400+ model forecasts on Polymarket questions, each next to the market price at the call, Bitcoin-timestamped with OpenTimestamps and Brier-scored.
+  The market is ahead so far (Brier 0.161 vs 0.194). The first batch (Sep 14–26) was sealed late and is flagged in the data.
+  - **Best for:** checking whether a model really beats the market price, misses included.
+  - **Team:** NeuPortal; public author Andrii Bilous.
+  - **Pricing:** free; data under CC BY 4.0 (DOI 10.5281/zenodo.24051884).
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
 [↑ Back to top](#top)
 
 ---
