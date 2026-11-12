@@ -81,6 +81,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Sep 2026 · **Reviewed:** Sep 2026
 
+- **[pdata](https://pdata.world/)**: Read-only aggregator of live odds, 24h volume and price history from 8 venues (Polymarket, Kalshi, Manifold, Myriad, Limitless, Predict, Opinion, Gemini) in one schema, with similar questions on other venues linked.
+  Free REST API, MCP server, nightly bulk files and read-only Postgres, no key or account. Cross-venue links are made automatically and can pair different questions.
+  - **Best for:** reading odds from eight venues through one schema, without writing a client per venue.
+  - **Team:** not publicly listed.
+  - **Pricing:** free, no key or signup; fair use up to 50 requests a second per IP. Data under CC BY 4.0.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
 [↑ Back to top](#top)
 
 ---
