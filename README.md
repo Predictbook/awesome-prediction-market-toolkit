@@ -17,7 +17,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 
 | Tools | Categories | Contributors | GitHub views (last 2 months) |
 |---|---|---|---|
-| 67 (+4 since last update) | 8 | 29 (+4 since last update) | 1,059 |
+| 68 (+5 since last update) | 8 | 29 (+4 since last update) | 1,059 |
 
 *Updated every other Sunday.*
 
@@ -26,7 +26,7 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
 | Category | What it covers | Tools |
 |---|---|---|
 | [🌐 Cross-Platform Odds Aggregators](#cross-platform-odds-aggregators) | compare odds and volume across platforms at once. | 5 |
-| [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 6 |
+| [🤖 Trade Copying & Automation](#trade-copying--automation) | mirror or auto-copy other traders' positions. | 7 |
 | [⚡ Trading Terminals & Execution](#trading-terminals--execution) | place and manage trades across venues from one interface. | 11 |
 | [📡 Signal & Fair-Value](#signal--fair-value) | spot mispriced markets and model-vs-market gaps. | 3 |
 | [🔍 Wallet & Trader Analytics](#wallet--trader-analytics) | research other traders' wallets and track records. | 15 |
@@ -104,6 +104,14 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Pricing:** free tier, Premium $30/mo.
   - **Phase:** live.
   - **Added:** Aug 2026 · **Reviewed:** Aug 2026
+
+- **[PolyTrackers](https://polytrackers.com/)**: Polymarket copy trading for people and AI agents, with trader grades, a $10,000 Free paper wallet, real trades through MCP on every plan, and a separate copy backtest that accounts for fees and slippage.
+  Live orders require wallet funding and authorization; encrypted trading credentials are stored and orders signed on the server.
+  - **Best for:** testing a wallet-following strategy with virtual funds before using real capital.
+  - **Team:** not publicly listed.
+  - **Pricing:** Free; Pro $19/mo; Elite $49/mo; real taker fee 0.25%, maker 0%; venue fees separate.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
 
 - **[Kreo](https://enter.kreo.app/)**: Telegram- and web-based non-custodial copy-trading tool for Polymarket and Kalshi wallets.
   Sub-3-second execution and insider-flow alerts.
