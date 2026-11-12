@@ -583,6 +583,13 @@ If this list saves you some digging, a ⭐ on the repo helps more people find it
   - **Phase:** live.
   - **Added:** Oct 2026 · **Reviewed:** Oct 2026
 
+- **[PaperMantis](https://papermantis.app/)**: Free web sandbox for backtesting Polymarket rules on recorded markets, inspecting simulated fills, and following supported strategies on new markets with virtual money.
+  - **Best for:** checking whether a rule still holds up on new markets after a historical backtest.
+  - **Team:** Vitalii Stepanenko, solo founder.
+  - **Pricing:** free.
+  - **Phase:** live.
+  - **Added:** Nov 2026 · **Reviewed:** Nov 2026
+
 [↑ Back to top](#top)
 
 ---
